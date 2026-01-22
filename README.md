@@ -1,7 +1,7 @@
 # DesignSkills
 
 <p align="center">
-  <img src="dts.gif" alt="DesignSkills Demo" width="600">
+  <img src="dts.gif" alt="DesignSkills Header GIF" width="600">
 </p>
 
 Design thinking skills for AI-assisted product development. These skills are currently made for Claude code only. I am updating it to work with most other agents!
