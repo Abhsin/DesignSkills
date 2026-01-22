@@ -3,3 +3,5 @@ ROADMAP.md
 .claude
 TESTING.md
 test-artifacts/
+.agents/
+prompts.md
