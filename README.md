@@ -1,7 +1,6 @@
 # DesignSkills
 
-Design thinking skills for AI-assisted product development. Inject user-centered design into your Claude Code workflow.
-
+Design thinking skills for AI-assisted product development. These skills are currently made for Claude code only. I am updating it to work with most other agents!
 ## Installation
 
 ```bash
