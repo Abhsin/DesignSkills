@@ -83,28 +83,6 @@ Prompt 2: Create recipe parser...
 
 ---
 
-## Philosophy
-
-**"Design skills for builders, not analysts"**
-
-We don't create 50-page documents. We create just enough structure to:
-1. Validate you're solving a real problem
-2. Define what success looks like
-3. Build the right thing efficiently
-
-Each skill completes in **5-15 minutes** and produces actionable output.
-
----
-
-## What Makes These Skills Different
-
-- **Concise** - Complete in minutes, not hours
-- **Modular** - Use individually or compose into workflows
-- **Actionable** - Outputs feed directly into next steps
-- **Reference-rich** - Each skill includes examples and frameworks
-
----
-
 ## Coming Soon
 
 - `ideation` - Problem reframing and rapid ideation
