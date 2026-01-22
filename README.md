@@ -1,6 +1,9 @@
 # DesignSkills
 
+![DesignSkills Demo](dts.gif)
+
 Design thinking skills for AI-assisted product development. These skills are currently made for Claude code only. I am updating it to work with most other agents!
+
 ## Installation
 
 ```bash
