@@ -55,6 +55,8 @@ Surface patterns that inform product decisions:
 - Where do they diverge?
 - What would you build differently for each?
 
+**Automatically save the output to `design/02-user-modeling.md` using the Write tool** while presenting it to the user.
+
 ## Output Format
 
 ```markdown
@@ -203,10 +205,7 @@ Surface patterns that inform product decisions:
 
 ## Handoff
 
-User models feed into:
-- `solution-scoping` — prioritize features by persona
-- `prd-generation` — write user stories grounded in real needs
-- `ux-specification` — design flows for specific scenarios
+After presenting the personas, ask:
+> "Want to move to `/solution-scoping` to prioritize features, or straight to `/prd-generation`?"
 
-When complete:
-> "Here are your user models. Want to move to solution scoping to prioritize features, or straight to the PRD?"
+**Note:** File is automatically saved to `design/02-user-modeling.md` for context preservation.

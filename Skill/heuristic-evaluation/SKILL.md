@@ -97,6 +97,8 @@ Group into:
 
 ## Output Template
 
+**Automatically save the output to `design/08-heuristic-evaluation.md` using the Write tool** while presenting it to the user.
+
 ```markdown
 ## Heuristic Evaluation: [Interface Name]
 
@@ -153,6 +155,13 @@ Group into:
 **If user is developer:**
 - Include implementation-aware suggestions
 - Note which fixes are quick wins vs architectural changes
+
+## Handoff
+
+After presenting the evaluation, suggest:
+> "Use this report to prioritize fixes. Want me to help refine any screens based on these findings?"
+
+**Note:** File is automatically saved to `design/08-heuristic-evaluation.md` for reference.
 
 ## Integration Points
 

@@ -72,6 +72,8 @@ Output a single file the user can reference as they work through Claude Code.
 
 ## Output Format
 
+**Automatically save the output to `prompts.md` (in project root) using the Write tool** while presenting it to the user.
+
 ```markdown
 # [Project Name] — Development Prompts
 
@@ -146,10 +148,12 @@ Each prompt should:
 
 ## Handoff
 
-Save output as `prompts.md` and present to user:
-> "Here's your prompts.md file. Work through these sequentially with Claude Code—each prompt builds on the last. Check the checkpoint before moving to the next prompt."
+After presenting the prompts, inform the user:
+> "Work through these prompts sequentially with Claude Code—each builds on the last. Check the checkpoint before moving to the next prompt."
 
 Offer to:
 - Adjust prompt granularity (more/fewer steps)
 - Reorder sequence
 - Add detail to specific prompts
+
+**Note:** File is automatically saved to `prompts.md` in the project root.

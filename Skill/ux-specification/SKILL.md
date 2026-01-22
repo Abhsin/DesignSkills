@@ -66,6 +66,8 @@ Ask targeted questions if needed:
 
 ## Output Format
 
+**Automatically save the output to `design/06-ux-spec.md` using the Write tool** while presenting it to the user.
+
 ```markdown
 # UX Spec: [Project Name]
 
@@ -258,7 +260,7 @@ Ask targeted questions if needed:
 
 ## Handoff
 
-This UX spec feeds directly into `prompt-export` for development prompts.
+After presenting the UX spec, ask:
+> "Ready to generate prompts.md with `/prompt-export`, or want to refine any screens first?"
 
-When complete:
-> "Here's your UX spec. Ready to generate the prompts.md for Claude Code, or want to refine any screens first?"
+**Note:** File is automatically saved to `design/06-ux-spec.md`. This feeds into development prompts.

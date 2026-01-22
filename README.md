@@ -83,6 +83,28 @@ Prompt 2: Create recipe parser...
 
 ---
 
+## Output Files
+
+Skills automatically save their outputs to preserve context:
+
+```
+your-project/
+├── design/
+│   ├── 01-problem-framing.md
+│   ├── 02-user-modeling.md
+│   ├── 03-assumption-mapping.md
+│   ├── 04-solution-scoping.md
+│   ├── 05-prd.md
+│   ├── 06-ux-spec.md
+│   └── 08-heuristic-evaluation.md
+├── prompts.md
+└── src/
+```
+
+All design artifacts are saved in the `design/` folder, making it easy for you and AI to reference previous decisions.
+
+---
+
 ## Coming Soon
 
 - `ideation` - Problem reframing and rapid ideation

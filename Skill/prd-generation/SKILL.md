@@ -49,6 +49,8 @@ Use the output format below. Adapt sections based on project complexity.
 
 ## Output Format
 
+**Automatically save the output to `design/05-prd.md` using the Write tool** while presenting it to the user.
+
 ```markdown
 # PRD: [Project Name]
 
@@ -177,7 +179,7 @@ Use the output format below. Adapt sections based on project complexity.
 
 ## Handoff
 
-This PRD feeds into `ux-specification` for detailed flows and screens, or directly into `prompt-export` if the project is simple enough.
+After presenting the PRD, ask:
+> "Want to move to `/ux-specification` for detailed flows and screens, or go straight to `/prompt-export`?"
 
-When complete:
-> "Here's your PRD. Want to move to UX specs for the key flows, or is this detailed enough to go straight to prompts?"
+**Note:** File is automatically saved to `design/05-prd.md` for context preservation.

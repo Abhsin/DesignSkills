@@ -118,7 +118,7 @@ See [references/validation-methods.md](references/validation-methods.md) for det
 
 ## Output Template
 
-Present findings in this format:
+**Automatically save the output to `design/03-assumption-mapping.md` using the Write tool** while presenting findings in this format:
 
 ```markdown
 ## Assumption Map for [Project Name]
@@ -152,6 +152,13 @@ Present findings in this format:
 - Offer the full matrix output
 
 **Gauge familiarity by asking:** "Have you mapped assumptions before, or should I walk you through it?"
+
+## Handoff
+
+Suggest next steps:
+> "Use this map to prioritize validation tests before full development. Want to proceed with `/solution-scoping` or test critical assumptions first?"
+
+**Note:** File is automatically saved to `design/03-assumption-mapping.md` for context preservation.
 
 ## Integration Points
 

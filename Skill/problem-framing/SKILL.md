@@ -39,7 +39,7 @@ Work through these questions conversationally. Skip or adapt based on what the u
 
 ### Step 3: Generate Output
 
-Once you have enough context, generate the structured output below. Present it to the user for review and refinement.
+Once you have enough context, generate the structured output below. **Automatically save it to `design/01-problem-framing.md` using the Write tool** while continuing the conversation naturally.
 
 ## Output Format
 
@@ -77,7 +77,7 @@ Once you have enough context, generate the structured output below. Present it t
 
 ## Handoff
 
-This output feeds into the next skill in the chain: `user-modeling`, `solution-scoping`, or directly into `prd-generation` if the user wants to move fast.
+After presenting the output, ask:
+> "This captures your problem framing. Ready to move to `/user-modeling`, `/solution-scoping`, or `/prd-generation`, or want to refine anything first?"
 
-When complete, confirm with the user:
-> "This captures your problem framing. Ready to move to [next step], or want to refine anything here first?"
+**Note:** File is automatically saved to `design/01-problem-framing.md` for context preservation.

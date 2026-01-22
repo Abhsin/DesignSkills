@@ -79,6 +79,8 @@ For each cut, confirm:
 
 ## Output Format
 
+**Automatically save the output to `design/04-solution-scoping.md` using the Write tool** while presenting it to the user.
+
 ```markdown
 # Solution Scoping: [Project Name]
 
@@ -213,10 +215,7 @@ For each cut, confirm:
 
 ## Handoff
 
-Solution scoping feeds directly into `prd-generation`:
-- Must Have → MVP features in PRD
-- Should Have → v1.1 roadmap
-- Won't Have → Out of Scope section
+After presenting the scoped MVP, ask:
+> "Ready to generate the PRD with `/prd-generation`, or want to adjust priorities first?"
 
-When complete:
-> "Here's your scoped MVP. Ready to generate the PRD, or want to adjust priorities first?"
+**Note:** File is automatically saved to `design/04-solution-scoping.md`. This feeds into PRD generation (Must Have → MVP features, Should Have → v1.1 roadmap, Won't Have → Out of Scope).
