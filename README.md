@@ -12,8 +12,7 @@ That's it! All skills are now available in Claude Code.
 
 ---
 
-## Available Skills (8/13 Complete)
-
+## Available Skills
 ### Pre-Planning
 - `/problem-framing` - Extract fuzzy ideas into clear problem statements
 - `/user-modeling` - Build behavior-based personas from research
