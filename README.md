@@ -118,7 +118,7 @@ All design artifacts are saved in the `design/` folder, making it easy for you a
 
 ## License
 
-Apache 2.0
+MIT
 
 ---
 
